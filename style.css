@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* INDEX.HTML */
+
+
+
+/* PROJECTS.HTML */
+
+header{
+    text-align: center;
+    background-color: #5C81C1;
+    color: white;
+    padding: 20px 0;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    margin: 20px 40px 0 40px;
+}
+
+.nav-element{
+    font-size: 1em;
+    flex: 1;
+}
+
+#projects{
+    background-color: aqua;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.project-card-set{
+    display: flex;    
+    gap: 60px;
+    list-style-type: none;
+    margin: 20px 90px;
+}
+
+.project-card{
+    font-size: 2em;
+    flex: 1;
+    padding: 80px 20px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
