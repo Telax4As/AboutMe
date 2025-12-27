@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
@@ -21,43 +22,56 @@ header{
     text-align: center;
     background-color: #5C81C1;
     color: white;
-    padding: 20px 0;
+    padding: 2vh 0 3vh 0;
 }
 
 h1{
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
 }
 
 nav{
     display: flex;
-    margin: 20px 40px 0 40px;
+    margin: 3vh 8vw 0 8vw;
+    gap: 5vw;
 }
 
-.nav-element{
-    font-size: 1em;
+.nav-element-main-menu, .nav-element-my-projects, .nav-element-contacts{
+    font-size: 1.1em;
     flex: 1;
+}
+
+.nav-element-main-menu:hover, .nav-element-my-projects:hover, .nav-element-contacts:hover{
+    transform: scale(1,1);
+    transition: 0.5s;
 }
 
 #projects{
     background-color: aqua;
-    padding: 20px 0;
+    padding: 3vh 0;
     text-align: center;
+    height: 60vh;
 }
 
 .project-card-set{
     display: flex;    
-    gap: 60px;
+    gap: 5vw;
     list-style-type: none;
-    margin: 20px 90px;
+    margin: 5vh 7vw;
 }
 
-.project-card{
-    font-size: 2em;
+.project-card-kegros, .project-card-underwater-sea, .project-card-telegram-bot{
+    font-size: 1.5em;
     flex: 1;
-    padding: 80px 20px;
+    padding: 12vh 2vw;
     background-color: brown;
     text-align: center;
     border-radius: 25px;
+    transition: 0.5s;
+}
+
+.project-card-kegros:hover, .project-card-underwater-sea:hover, .project-card-telegram-bot:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 
