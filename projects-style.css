@@ -12,10 +12,6 @@ a{
     text-decoration: none;
 }
 
-/* INDEX.HTML */
-
-
-
 /* PROJECTS.HTML */
 
 header{
@@ -23,6 +19,7 @@ header{
     background-color: #5C81C1;
     color: white;
     padding: 2vh 0 3vh 0;
+    height: 20vh;
 }
 
 h1{
@@ -38,10 +35,11 @@ nav{
 .nav-element-main-menu, .nav-element-my-projects, .nav-element-contacts{
     font-size: 1.1em;
     flex: 1;
+    transition: 0.5s;
 }
 
 .nav-element-main-menu:hover, .nav-element-my-projects:hover, .nav-element-contacts:hover{
-    transform: scale(1,1);
+    font-size: 1.2em;
     transition: 0.5s;
 }
 

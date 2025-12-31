@@ -4,43 +4,41 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AboutMe</title>
+        <link rel="stylesheet" href="index-style.css">
     </head>
     <body>
         <header>
-            <h1>Dimash</h1>
-            <p>На данном сайте будет публиковаться информация обо мне</p>
+            <h1>About Me</h1>
+            <hr color="black">
+            <nav>
+                <a href="#personal-information" class="nav-element-personal-infomation">Личная информация</a>
+                <a href="#schedule" class="nav-element-schedule">Расписание уроков</a>
+                <a href="#contact" class="nav-element-contact">Связаться со мной</a>
+                <a href="projects.html" class="nav-element-projects">Мои проекты</a>
+            </nav>
         </header>
-        <nav>
-            <ul>
-                <li><a href="#personal_information">Личная информация</a></li>
-                <li><a href="#schedule">Расписание уроков</a></li>
-                <li><a href="#contact">Как связаться со мной</a></li>
-                <li><a href="projects.html">Мои проекты</a></li>
-            </ul>
-        </nav>
         <main>
-
-            <section id="personal_information">
-                <a href="https://www.kinopoisk.ru/series/790340/">
-                    <img src="images/avatar.png" alt="avatar">
-                </a>
+            <section id="personal-information">
+                <a href="https://www.kinopoisk.ru/series/790340/" class="avatar"></a>    
                 <article>
-                    <ul>
-                        <li>Name: Dimash</li>
-                        <li>Age:17yo</li>
-                        <li>School: Lyceum 134</li>
-                    </ul>
+                    <div class="info">
+                        <ul>
+                            <li>Name: Dimash</li>
+                            <li>Age:17yo</li>
+                            <li>School: Lyceum 134</li>
+                        </ul>
 
-                    Цели<br>
-                    <ol>
-                        <li>УБТ 125+</li>
-                        <li>Англ b1-b2</li>
-                        <li>Фулстак разработчик</li>
-                    </ol>
+                        Цели<br>
+                        <ol>
+                            <li>УБТ 125+</li>
+                            <li>Англ b1-b2</li>
+                            <li>Фулстак разработчик</li>
+                        </ol>
+                    </div>
                 </article>
-                <aside>
+                <!-- <aside>
                     <h2>Last УБТ test resultes is 112 points</h2>
-                </aside>
+                </aside> -->    
             </section>
 
             <section id="schedule">
